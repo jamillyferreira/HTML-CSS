@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(180, 192, 188);
+    width: 100%;
+    height: 100vh;
+   
+  
+}
+
+header {
+    background-color: rgb(82, 170, 122);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(33, 156, 115);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(18, 18, 19, 0.281);
+   
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    background-color: rgb(142, 190, 153);
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+img {
+    width: 100%;
+}
+main img.icon-droid {
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+}
+
+
+main h1 {
+    color: rgba(15, 136, 52, 0.753);
+    background-image: linear-gradient(to right, #acd39d8f , #fffcfc );
+}
+
+main h2 {
+    color: #000;
+    background-image: linear-gradient(to right, #acd39d8f , #fffcfc );
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+div.video {
+    background-color: rgb(56, 131, 75);
+    margin: 0px -15px 30px -15px;
+    padding: 20px 20px 56% 20px;
+    position: relative;
+    
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: rgba(57, 224, 146, 0.589);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+aside h3 {
+    background-color: rgb(35, 197, 143);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+
+footer {
+    background-color: rgba(68, 124, 80, 0.815);
+    color: aliceblue;
+    text-align: center;
+    padding: 3px;
+}
