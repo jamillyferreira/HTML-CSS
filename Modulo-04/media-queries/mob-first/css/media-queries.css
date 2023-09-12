@@ -23,3 +23,29 @@
     img#tv { display: none; }
     
 }
+
+/*pc*/
+@media screen and (min-width: 1366px) {
+    body {
+        background-image: url(../images/back-pc.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+}
+
+/*telas grandes*/
+@media screen and (min-width: 1900px){
+    body {
+        background-image: url(../images/back-tv.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+}
