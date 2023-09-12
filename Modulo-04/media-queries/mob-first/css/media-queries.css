@@ -1,0 +1,25 @@
+/*TODAS AS MIDIAS*/
+
+/*TYPICAL DEVICE BREAKPOINTS
+
+--Móvel: 360 x 640
+--Móvel: 375 x 667
+--Móvel: 360 x 720
+--Tablet: 768 x 1024
+--Laptop: 1366 x 768
+--High-res laptop or desktop: 1920 x 1080
+*/
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../images/back-tablet.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    
+}
