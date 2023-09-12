@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*mobile first*/
+body {
+    background-color: gainsboro;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    
+    color: black;
+    margin-bottom: 1rem;
+   
+    
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav  {
+    display: block;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    border-top: 2px solid gray;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+main {
+    background-color: #ffff;
+    width: 90%;
+    margin: auto;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+main article h1 {
+    padding-bottom: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+main article p {
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 20px;
+}
