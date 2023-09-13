@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quires.csss">
     <title>Projeto media queries</title>
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <nav>
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="inputMenu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -29,6 +33,15 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempore saepe, laboriosam autem exercitationem nostrum ratione, fugit dolorum itaque eligendi aspernatur obcaecati ab consequuntur repellendus doloremque quibusdam voluptate! Ab, magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur soluta maiores asperiores architecto reprehenderit quo fugiat voluptas fugit obcaecati, cumque numquam culpa dolore ad iusto voluptatum aut nostrum illum nesciunt?</p>
        </article>
     </main>
-    
+
+    <script>
+        function clickMenu(){
+            if (inputMenu.style.display == 'block'){
+                inputMenu.style.display = 'none'
+            } else {
+                inputMenu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
